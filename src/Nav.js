@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 function Nav() {
@@ -20,6 +21,11 @@ function Nav() {
                 <span className="h5">Stake &amp; Earn.</span>
               </span>
             </a>
+            <div class="header__right ">
+              <button href="" class="header-btn">
+                <span>Connect Wallet</span>
+              </button>
+            </div>
           </div>
         </div>
       </header>
